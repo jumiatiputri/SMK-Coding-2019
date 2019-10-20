@@ -17,36 +17,59 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text="Judul Film" />
 
-        <ImageView
-            android:id="@+id/iv_poster_movie"
-            android:layout_width="200dp"
-            android:layout_height="0dp"
-            android:layout_marginTop="20dp"
-            app:layout_constraintDimensionRatio="2:3"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_title_movie" />
+    <ImageView
+        android:id="@+id/iv_poster_movie"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="2:3"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_movie" />
 
-        <TextView
-            android:id="@+id/tv_rating_movie"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:textSize="16sp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_poster_movie"
-            tools:text="Rating : 72" />
+    <Button
+        android:id="@+id/btn_list_favorit_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/background_button"
+        android:text="FAVORIT"
+        android:textColor="#FFFBFB"
+        app:layout_constraintBottom_toTopOf="@+id/tv_rating_movie"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_poster_movie" />
 
-        <TextView
-            android:id="@+id/tv_description_movie"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textSize="16sp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_rating_movie"
-            tools:text="Deskripsi Film XXXX" />
+    <TextView
+        android:id="@+id/tv_rating_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginRight="296dp"
+        android:layout_marginBottom="11dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_description_movie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_poster_movie"
+        tools:text="Rating : 72" />
+
+    <TextView
+        android:id="@+id/tv_description_movie"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="260dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_rating_movie"
+        tools:text="Deskripsi Film XXXX" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
