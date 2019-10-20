@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btn_list_favorit_movie.onClick {
-            startActivity(intentFor<favorit_Activity>())
+            startActivity(intentFor<ListFavoriteActivity>())
         }
 
     }
