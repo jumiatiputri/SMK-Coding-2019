@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "610760498430",
+    "firebase_url": "https://hellokity-39462.firebaseio.com",
+    "project_id": "hellokity-39462",
+    "storage_bucket": "hellokity-39462.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610760498430:android:7499fbee0e0a4d8bb899af",
+        "android_client_info": {
+          "package_name": "com.jumia.hellokity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610760498430-8hfuur0gng965tierdv089tg0pn1iupo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jumia.hellokity",
+            "certificate_hash": "8ee0aa3eac66bdc6809399a090314dd576a3c4bb"
+          }
+        },
+        {
+          "client_id": "610760498430-32h9197dcoathsq5n8mu1tpij85js1t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZki-ao0Yjr_y8OaMtQLtb2zzjoUF5AVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610760498430-32h9197dcoathsq5n8mu1tpij85js1t4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
