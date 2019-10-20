@@ -27,7 +27,6 @@ class MyDatabaseHelper(context: Context)
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
         db?.dropTable(ResultsItem.TABLE_FAVORITE,true)
         onCreate(db)
-
     }
 }
 val Context.database:MyDatabaseHelper
